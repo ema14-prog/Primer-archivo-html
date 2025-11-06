@@ -1,0 +1,125 @@
+/*  Selector + propiedad + valor
+
+selector{
+propiedad: valor
+}
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    /* color: blue; */
+    font-size: 16px; /*tamaño de la fuente*/
+    /*unidades de medida - px em rem % */
+    margin: 20px; /*el margen*/
+}
+
+h1{
+    color: #333;
+}
+
+body{
+    background-color: #fff;
+}
+
+div{
+    color: green;
+}
+
+span{
+    color: red;
+}
+
+/*  Especificidad */
+
+div span{
+    color: green;
+}
+
+.titulos{
+    text-decoration: underline;
+    text-align: center;
+}
+
+#Testimonios{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.titulo-servicios{
+    color: blue;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px; /*Absoluta*/
+    font-family: "Nunito", sans-serif;
+}
+
+.parrafo-servicios{
+    color: gray;
+    font-style: italic;
+    font-size: 1.5em; /*Relativa/ al tamaño de la fuente del elemnto padre /REM es relativo al tamaño de la fuente dedel elemento raiz*/
+}
+
+.caja{
+    width: 50%;
+    height: 50vh;
+    background-color: lightblue;
+    border: 2px solid blue;
+    text-align: center;
+    line-height: 100px;
+    margin: 10px;
+
+    /* Flex grow nos permite cambiar el ancho de las cajas de maneras flexibles */
+    flex-grow: 1;
+}
+
+.contenedor{
+  display: flex; /*Activa flexbox*/
+  justify-content: space-between; /* Horizontal */
+  align-items: center; /*vertical*/
+  padding: 10px;
+  flex-direction: column;
+}
+
+.navbar{
+    background-color: #b6d9fe;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li{
+    margin: 0 15px;
+}
+
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+.container{
+    display: flex;
+}
+
+.sidebar{
+    width: 25%;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.main-content{
+    width: 75%;
+    background-color: #eaeaea;
+    padding: 20px;
+}

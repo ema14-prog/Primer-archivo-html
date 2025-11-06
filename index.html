@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Mi primer sitio web</title>  <!--Esto se ve en la pestaña de la pagina web-->
+</head>
+<body>
+
+<div>
+    <p>Este es un parrafo dentro de un div</p>
+    <span>Este es un span dentro del div</span>
+</div>
+
+    <h1 class="titulos">Mi primer sitio web codigo</h1> <!--Esto es un encabezado-->
+    <p>Este es un parrafo de ejemplo</p>  <!--Esto es un parrafo-->
+
+    <a href=""></a> <!--Se usa para crear enlaces-->
+    <img src="" alt=""> <!--Se utiliza para cargar una imagen.Con el ALT podemos describir la IMG-->
+
+    <!--Lista ordenada-->
+    <ol>
+        <!--Atributos de los items de la lista ordenada-->
+        <li>Primer item - Batir</li>
+        <li>Cocinar</li>
+        <li>Comer</li>
+    </ol>
+
+    <!--Lista desordenada-->
+
+    <ul>
+        <!--Atributos de los items de la lista desordenada-->
+        <li>Agua</li>
+        <li>Carne</li>
+        <li>Verduras</li>
+    </ul>
+
+    <!--Enlace absoluto.Apunto a enlaces externos-->
+    <a href="https://google.com">prensa</a>
+
+    <!--Enlaces relativos.Nos ayuda a movernos entre paginas del mismo proyecto-->
+    <a href="servicios.html">servicios</a>
+
+    <!--Enlaces internos.Este tipo de enlace lleva a una secion especifica de la misma pagina
+    ID que se crea con "#" seguido nombre de seccion-->
+    <a href="#testimonios">Testimonios</a>
+
+    <section id="Testimonios">
+        <p>
+            Testimonios
+        </p>
+    </section>
+
+    <!--Videos-->
+    <video src="video.mp4"controls></video>
+
+    <!--Audio-->
+    <audio src="audio.mp3"controls></audio>
+
+
+    <!--Tablas / Para organizar o armar emails-->
+
+    <table> <!--Contenedoras de la tabla-->
+        <tr>
+            <th>Nombre</th>  <!--Los encabezados,en este caso 3-->
+            <th>Ciudad</th>
+            <th>Edad</th>
+        </tr>
+
+        <tr> <!--Define una filas-->
+            <td>Ema</td> <!--Las celdas en este caso 3-->
+            <td>Moron</td>
+            <td>35</td>
+        </tr>
+    </table>
+
+    <!-- Formularios-->
+     <form action="/submit" method="">  <!--Etiqueta contenedora-->
+
+        <label for="name">Nombre:</label>   <!--El for debe copincidir con el Id del input-->
+        <input type="text" name="nombre" id="name">
+
+        <label for="Password">Contraseña</label>
+        <input type="password" name="password" id="password">
+
+        <label for="msj">Mensaje</label>
+        <textarea name="Mensaje" id="msj"></textarea>
+
+        <label for="genero">Genero</label>
+
+        <input type="radio" name="" id="">
+        <label for="">Hombre</label>
+
+        <input type="radio" name="" id="">
+        <label for="">Mujer</label>
+
+        <input type="radio" name="" id="">
+        <label for="">Prefiero no decirlo</label>
+
+        <label for="suscribe">Suscribirse</label>
+        <input type="checkbox" name="suscribe" id="suscribe">
+
+        <label for="pais">Paises</label>
+        <select name="" id="">
+            <option value="">Brasil</option>
+            <option value="">Argentina</option>
+            <option value="">Uraguey</option>
+        </select>
+
+        <input type="submit" value="Enviar">
+     </form>  
+    
+
+
+
+</body>
+</html>
