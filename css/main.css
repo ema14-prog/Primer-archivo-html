@@ -123,3 +123,20 @@ div span{
     background-color: #eaeaea;
     padding: 20px;
 }
+
+
+/* GRID.HTML */
+.grid-container{
+    display: grid; /*definimos grid*/
+    grid-template-columns: repeat(4,1fr); /*definir columnas*/
+    gap: 5px;
+    /*Definir filas*/
+    grid-template-rows: 100px 200px;
+}
+
+.grid-item{
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
