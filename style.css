@@ -1,0 +1,18 @@
+body {
+  background-color: #3498db;
+}
+
+header {
+  background-color: #3498db;
+}
+header nav {
+  padding: 20;
+}
+header nav ul {
+  list-style: circle;
+}
+header nav ul li {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */

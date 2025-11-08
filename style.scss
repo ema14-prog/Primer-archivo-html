@@ -1,0 +1,20 @@
+$primary-color: #3498db;
+
+body{
+    background-color: $primary-color;
+}
+
+//anidamiento
+
+header{
+    background-color: $primary-color;
+    nav{
+        padding: 20;
+        ul{
+            list-style: circle;
+            li{
+                text-decoration: underline;
+            }
+        }
+    }
+}
