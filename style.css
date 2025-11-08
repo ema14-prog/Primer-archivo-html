@@ -1,7 +1,3 @@
-body {
-  background-color: #3498db;
-}
-
 header {
   background-color: #3498db;
 }
@@ -13,6 +9,49 @@ header nav ul {
 }
 header nav ul li {
   text-decoration: underline;
+}
+
+div {
+  width: 100px;
+}
+div p {
+  font-size: 20px;
+}
+
+.box {
+  border-radius: 100px;
+}
+
+.mapa {
+  border-radius: 20px;
+}
+
+.red-bg {
+  background-color: red;
+}
+
+.green-bg {
+  background-color: green;
+}
+
+.blue-bg {
+  background-color: blue;
+}
+
+.primary-bg {
+  background-color: red;
+}
+
+.secondary-bg {
+  background-color: green;
+}
+
+.danger-bg {
+  background-color: orange;
+}
+
+body {
+  background-color: #3498db;
 }
 
 /*# sourceMappingURL=style.css.map */

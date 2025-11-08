@@ -1,0 +1,38 @@
+//anidamiento
+
+header{
+    background-color: $primary-color;
+    nav{
+        padding: 20;
+        ul{
+            list-style: circle;
+            li{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
+div {
+    width: 100px;
+    p{
+        font-size: 20px;
+    }
+}
+
+
+//SASS - SCSS
+
+//añadir en lo parentesis un parametro o variablew vacio.En esta variable vamos a decidir que valor va a tener en el futuro.-el futuro es cuando utilicemos ese mixin. 
+@mixin border-radius($radius){
+    border-radius: $radius;
+}
+
+.box{
+    @include border-radius(100px)
+}
+
+.mapa{
+    @include border-radius(20px)
+}
