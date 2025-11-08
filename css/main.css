@@ -140,3 +140,24 @@ div span{
     padding: 20px;
     text-align: center;
 }
+
+/* bootstrap */
+
+/* media query */
+@media (max-widht: 576px){
+    .custom-style{
+        background-color: rgb(119, 45, 45);
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px){
+    .custom-style{
+        background-color: blue;
+    }
+}
+
+@media (min-width: 769px){
+    .custom-style{
+        background-color: green;
+    }
+}
