@@ -20,6 +20,11 @@ div p {
 
 .box {
   border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: relative;
+  animation: move 5s infinite;
 }
 
 .mapa {
@@ -51,7 +56,14 @@ div p {
 }
 
 body {
-  background-color: #3498db;
+  background-color: whitesmoke;
+}
+
+@keyframes move{
+  0% { transform: translateX(0) translateY(0) translateZ(0);}
+  33% {transform: translateX(100px) translateY(0) translateZ(0);}
+  66% {transform: translateX(100px) translateY(100px) translateZ(100px);}
+  100% {transform: translateX(0) translateY(100px) translateZ(100px);}
 }
 
 /*# sourceMappingURL=style.css.map */
